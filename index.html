@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gamevista – Video Game Guides, Genres and Gaming Basics</title>
+<meta name="description" content="Gamevista is an informational resource about video games: genres, platforms, game design basics, healthy play habits and how to choose games that fit you.">
+
+<!-- GOOGLE AD CODE: apna AdSense / Google Ads script yahan paste karein -->
+<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
+
+<style>
+:root{--ink:#14122B;--violet:#5B3FD9;--mint:#2EC4A0;--paper:#F6F5FB;--amber:#F2B134;--text:#2A2840;--muted:#5E5C75;--line:#E1DEF0}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Georgia,"Times New Roman",serif;color:var(--text);background:#fff;line-height:1.75;font-size:17px;width:100%;overflow-x:hidden}
+h1,h2,h3,nav,.btn,.tag,footer,summary{font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--violet)}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
+.wrap{width:100%;max-width:1180px;margin:0 auto;padding:0 24px}
+header{background:var(--ink);color:#fff;width:100%}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 0;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-family:"Segoe UI",Roboto,Arial,sans-serif;font-weight:700;font-size:24px;letter-spacing:.3px}
+.logo svg{width:40px;height:40px}
+nav a{color:#CFCBEA;text-decoration:none;margin-left:22px;font-size:15px}
+nav a:hover{color:#fff}
+.hero{background:linear-gradient(135deg,var(--ink) 0%,#2A1F6B 100%);color:#fff;padding:72px 0 84px}
+.hero .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:48px;align-items:center}
+.hero h1{font-size:46px;line-height:1.15;margin-bottom:18px}
+.hero p{color:#D9D6F0;font-size:19px;max-width:560px}
+.btn{display:inline-block;margin-top:26px;background:var(--mint);color:var(--ink);font-weight:700;padding:13px 26px;border-radius:6px;text-decoration:none}
+.btn:hover{background:#4fd8b9}
+.pad{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.18);border-radius:18px;padding:28px}
+.pad svg{width:100%;height:auto;display:block}
+section{padding:64px 0}
+section.alt{background:var(--paper)}
+h2{font-size:32px;line-height:1.25;color:var(--ink);margin-bottom:16px}
+h3{font-size:20px;color:var(--ink);margin-bottom:8px}
+.lead{max-width:820px;color:var(--muted);margin-bottom:34px;font-size:18px}
+p+p{margin-top:14px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:24px}
+.alt .card{background:#fff}
+.tag{display:inline-block;font-size:13px;font-weight:600;color:var(--violet);background:#ECE8FB;border-radius:20px;padding:3px 12px;margin-bottom:12px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:start}
+.slot{width:100%;max-width:1180px;margin:0 auto;padding:10px 24px;min-height:100px;text-align:center}
+ul.clean{list-style:none}
+ul.clean li{padding:10px 0 10px 28px;position:relative;border-bottom:1px solid var(--line)}
+ul.clean li:before{content:"";position:absolute;left:0;top:19px;width:12px;height:12px;border-radius:3px;background:var(--mint)}
+details{border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin-bottom:12px;background:#fff}
+summary{cursor:pointer;font-weight:600;color:var(--ink);font-size:17px}
+details p{margin-top:10px;color:var(--muted)}
+.disclaimer{background:#FFF7E3;border-top:4px solid var(--amber);border-bottom:1px solid #F0DFAE}
+.disclaimer h2{font-size:26px}
+.disclaimer p{color:#4B4630;font-size:16px}
+footer{background:var(--ink);color:#BDB9DD;padding:36px 0;font-size:15px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
+footer a{color:#fff;margin-left:20px;text-decoration:none}
+footer a:hover{text-decoration:underline}
+@media(max-width:900px){.hero .wrap,.two{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.hero h1{font-size:36px}}
+@media(max-width:600px){.grid{grid-template-columns:1fr}nav a{margin:0 16px 0 0}h2{font-size:27px}.hero{padding:48px 0 56px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a class="logo" href="#top" aria-label="Gamevista home">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#5B3FD9"/><path d="M12 19h24a5 5 0 0 1 5 5v5a5 5 0 0 1-8.6 3.5L30 30H18l-2.4 2.5A5 5 0 0 1 7 29v-5a5 5 0 0 1 5-5z" fill="#fff"/><rect x="14" y="22" width="8" height="2.6" rx="1.3" fill="#14122B"/><rect x="16.7" y="19.6" width="2.6" height="7.4" rx="1.3" fill="#14122B"/><circle cx="30" cy="22.5" r="1.9" fill="#2EC4A0"/><circle cx="34.5" cy="25.5" r="1.9" fill="#F2B134"/></svg>
+      Gamevista
+    </a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#genres">Genres</a>
+      <a href="#platforms">Platforms</a>
+      <a href="#habits">Healthy Play</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<div class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Understand video games before you press start</h1>
+      <p>Gamevista is an independent reading resource about video games. We explain genres, platforms, how games are made and how to build play habits that stay fun, so every choice you make about gaming is an informed one.</p>
+      <a class="btn" href="#genres">Explore game genres</a>
+    </div>
+    <div class="pad">
+      <svg viewBox="0 0 400 260" role="img" aria-label="Illustration of a game controller and a game world map">
+        <rect x="10" y="10" width="380" height="150" rx="14" fill="#1E1A4A"/>
+        <path d="M30 130 L90 70 L130 110 L190 50 L250 120 L300 80 L370 130 Z" fill="#2EC4A0" opacity=".85"/>
+        <circle cx="325" cy="45" r="16" fill="#F2B134"/>
+        <rect x="150" y="185" width="100" height="14" rx="7" fill="#5B3FD9"/>
+        <path d="M80 200h240a28 28 0 0 1 28 28v4a24 24 0 0 1-41 17l-14-14H107l-14 14A24 24 0 0 1 52 232v-4a28 28 0 0 1 28-28z" fill="#fff"/>
+        <rect x="100" y="215" width="40" height="12" rx="6" fill="#14122B"/><rect x="114" y="201" width="12" height="40" rx="6" fill="#14122B"/>
+        <circle cx="262" cy="216" r="9" fill="#2EC4A0"/><circle cx="288" cy="232" r="9" fill="#F2B134"/>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<!-- GOOGLE AD SLOT 1 -->
+<div class="slot">
+  <!-- <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="1111111111" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> -->
+</div>
+
+<section id="about">
+  <div class="wrap two">
+    <div>
+      <h2>What Gamevista is about</h2>
+      <p>Video games have grown from simple arcade screens into one of the most widespread forms of entertainment in the world. People play on phones, consoles, handheld devices and personal computers, alone or with friends, for a few minutes or for hours.</p>
+      <p>With so many options, it is easy to feel lost. Gamevista exists to make the topic easier to understand. We write plain-language articles about how games work, what the different genres offer and what to think about before choosing or buying a game.</p>
+    </div>
+    <div>
+      <h3>What you will find here</h3>
+      <ul class="clean">
+        <li>Clear explanations of popular game genres</li>
+        <li>An overview of gaming platforms and what separates them</li>
+        <li>Background on how games are designed and built</li>
+        <li>Practical advice on healthy, balanced play</li>
+        <li>Answers to common beginner questions</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="genres">
+  <div class="wrap">
+    <h2>Game genres explained</h2>
+    <p class="lead">A genre describes the main type of play a game offers. Knowing the genres helps you describe what you enjoy and find games that match it.</p>
+    <div class="grid">
+      <div class="card"><span class="tag">Action</span><h3>Action and Adventure</h3><p>These games focus on movement, timing and exploration. Players travel through worlds, solve obstacles and often follow a story. Reflexes matter, but so does curiosity.</p></div>
+      <div class="card"><span class="tag">Strategy</span><h3>Strategy and Simulation</h3><p>Planning is the core skill. You manage resources, build cities or lead armies, and every decision has a longer-term result. Many players enjoy the slower, thoughtful pace.</p></div>
+      <div class="card"><span class="tag">Role-playing</span><h3>Role-Playing Games</h3><p>You guide a character who grows stronger over time. Story, choices and character development are central, and a single game can last dozens of hours.</p></div>
+      <div class="card"><span class="tag">Puzzle</span><h3>Puzzle and Logic</h3><p>Short, focused challenges that reward pattern recognition and patience. Puzzle games are easy to pick up and suit quick sessions on a phone.</p></div>
+      <div class="card"><span class="tag">Sports</span><h3>Sports and Racing</h3><p>Digital versions of football, cricket, basketball or motor racing. They range from realistic simulations to light arcade-style play.</p></div>
+      <div class="card"><span class="tag">Casual</span><h3>Casual and Family Games</h3><p>Simple rules, friendly visuals and low pressure. These games are designed so that anyone in the household can join in without a long learning curve.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap two">
+    <div>
+      <h2>How a video game is made</h2>
+      <p>Behind every game is a team that combines several skills. Designers decide the rules and the experience. Programmers turn those rules into working software. Artists create characters, environments and animation, while sound designers and composers build the audio that sets the mood.</p>
+      <p>Most projects begin with a prototype, a rough playable version used to test whether the central idea is enjoyable. The game is then improved over many rounds of testing, where players give feedback and the team fixes problems before release.</p>
+    </div>
+    <div>
+      <h3>The usual stages</h3>
+      <ul class="clean">
+        <li>Concept: the idea, the audience and the core activity</li>
+        <li>Prototype: a simple version to test the fun</li>
+        <li>Production: art, code, levels and audio are built</li>
+        <li>Testing: bugs are found and balance is adjusted</li>
+        <li>Release and updates: the game is published and supported</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- GOOGLE AD SLOT 2 -->
+<div class="slot">
+  <!-- <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="2222222222" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> -->
+</div>
+
+<section class="alt" id="platforms">
+  <div class="wrap">
+    <h2>Gaming platforms at a glance</h2>
+    <p class="lead">The device you play on shapes the games available to you, the controls you use and how much you may spend. Here is a simple comparison.</p>
+    <div class="grid">
+      <div class="card"><h3>Mobile</h3><p>Phones and tablets are the most accessible option. Touch controls suit puzzle, casual and strategy games, and play fits into short breaks.</p></div>
+      <div class="card"><h3>Console</h3><p>Dedicated hardware connected to a television. Consoles offer a consistent experience, simple setup and strong support for couch play with friends.</p></div>
+      <div class="card"><h3>Personal computer</h3><p>PCs are flexible, support a very wide range of games and allow mouse and keyboard or controller input. Performance depends on the hardware you own.</p></div>
+    </div>
+    <p style="margin-top:28px;max-width:820px">When choosing a platform, think about where you usually play, who you play with and what you are comfortable spending on devices and games. There is no single best option, only the one that suits your situation.</p>
+  </div>
+</section>
+
+<section id="choose">
+  <div class="wrap two">
+    <div>
+      <h2>How to choose a game that suits you</h2>
+      <p>Start with what you already enjoy. If you like stories, look at adventure and role-playing games. If you like thinking things through, try strategy or puzzles. If you prefer relaxed play, casual titles are a good fit.</p>
+      <p>Check the age rating, read a few independent reviews and look at gameplay footage before you commit. Reviews from several sources give a more balanced picture than a single opinion.</p>
+    </div>
+    <div>
+      <h3>A short checklist</h3>
+      <ul class="clean">
+        <li>Does the genre match your interests?</li>
+        <li>Is the age rating suitable for the player?</li>
+        <li>Does your device meet the requirements?</li>
+        <li>Is it single player, online or both?</li>
+        <li>Does the game include optional in-game purchases?</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="habits">
+  <div class="wrap">
+    <h2>Healthy gaming habits</h2>
+    <p class="lead">Gaming is best enjoyed as one part of a balanced routine. A few simple habits help keep it positive.</p>
+    <div class="grid">
+      <div class="card"><h3>Take regular breaks</h3><p>Stand up, stretch and rest your eyes every hour or so. Short pauses reduce strain on eyes, neck and hands.</p></div>
+      <div class="card"><h3>Set time limits</h3><p>Decide in advance how long a session will be. This is especially useful for younger players and on school or work nights.</p></div>
+      <div class="card"><h3>Mind your sleep</h3><p>Avoid long sessions late at night. Screens and excitement close to bedtime can make it harder to fall asleep.</p></div>
+      <div class="card"><h3>Be careful with spending</h3><p>Understand what in-game purchases are before using them, and set a clear budget. Parents can use device controls to manage spending.</p></div>
+      <div class="card"><h3>Stay safe online</h3><p>Do not share personal details with strangers, use strong passwords and report abusive behaviour through the game's tools.</p></div>
+      <div class="card"><h3>Keep other interests</h3><p>Exercise, study, family time and hobbies all matter. If gaming starts to crowd these out, it may be time to adjust your routine.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- GOOGLE AD SLOT 3 -->
+<div class="slot">
+  <!-- <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="3333333333" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> -->
+</div>
+
+<section id="faq">
+  <div class="wrap" style="max-width:860px">
+    <h2>Frequently asked questions</h2>
+    <details><summary>Is Gamevista a game store or a game download site?</summary><p>No. Gamevista does not sell, host or distribute games. It is a reading resource that explains gaming topics in simple language.</p></details>
+    <details><summary>Do I need expensive hardware to enjoy games?</summary><p>Not at all. Many enjoyable games run on ordinary phones and older computers. Expensive hardware mainly matters for the most graphically demanding titles.</p></details>
+    <details><summary>What do age ratings mean?</summary><p>Ratings are guidance from rating boards about the suitability of a game's content, such as violence or language. They help families choose games appropriate for the player's age.</p></details>
+    <details><summary>How much gaming time is reasonable?</summary><p>It varies with age, schedule and responsibilities. A good sign is that gaming fits alongside sleep, study or work, physical activity and time with other people.</p></details>
+    <details><summary>Are free games really free?</summary><p>Many are free to start but may offer optional purchases or show adverts. Read the game description and settings so you know what to expect.</p></details>
+  </div>
+</section>
+
+<section class="disclaimer" id="disclaimer">
+  <div class="wrap" style="max-width:900px">
+    <h2>Disclaimer</h2>
+    <p>The content on Gamevista is provided for general informational and educational purposes only. It is not professional, medical, psychological, financial or legal advice. While we make reasonable efforts to keep information accurate and up to date, we make no guarantees about its completeness or suitability for any particular purpose.</p>
+    <p>Gamevista is an independent website and is not affiliated with, endorsed by or sponsored by any game developer, publisher or platform. Game titles, brands and trademarks mentioned belong to their respective owners and are referenced for informational purposes only.</p>
+    <p>Gamevista does not offer, host or promote real-money gambling, and nothing on this site should be read as encouragement to gamble. Readers are responsible for following the laws and age requirements that apply where they live. Third-party advertising may appear on this site; the advertisers are responsible for their own content. Please use your own judgement and consult a qualified professional if you have concerns about health or wellbeing.</p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>&copy; 2026 Gamevista. All rights reserved.</div>
+    <div><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms &amp; Conditions</a></div>
+  </div>
+</footer>
+
+</body>
+</html>
